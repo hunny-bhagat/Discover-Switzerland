@@ -1,0 +1,58 @@
+body{
+  color: olivedrab;
+
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: right;
+}
+
+Body {
+  background-image: url('Rheinfall.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  font-family: 'Lobster', cursive, 'Times New Roman';
+  font-size: 1.1em;
+}
+
+a {
+  text-decoration: none;
+  color: olivedrab;
+}
+a:link {
+  color: olivedrab;
+}
+
+a:hover {
+  color: goldenrod;
+}
+ul {
+  border: olive 4px ridge;
+  width: 200px;
+  margin-left: 650px;
+}
+p {
+  border: olivedrab 4px ridge;
+  width: 350px;
+}
+
+div{
+  background-color: transparent;
+  text-align: left;
+  border: olivedrab 4px ridge;
+  margin-right: 480px;
+}
+
+.footer {
+
+text-align: center;
+font-family: 'Times New Roman', 'lobster';
+font-style: italic bold;
+font-size: 35px;
+color: gainsboro;
+}
