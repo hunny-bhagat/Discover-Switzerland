@@ -9,7 +9,14 @@
   color: peachpuff;
 }
 
+html, body, h1, h2, h3, div, p {
+  width: auto;
+  height: auto;
+}
+
 body {
+  padding: 0 20px;
+   
   background-image: url('../Images/Background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,27 +30,34 @@ body {
   text-align: center;
   color: yellowgreen;
 }
+
 h2 {
   font-weight: 500;
   font-family: 'Lobster', Helvetica;
   font-size: 25px;
   color: purple;
 }
+
 .main-div {
   justify-content: space-around;
   display: flex;
   width:100%;
 }
+
 .montreux {
-font-family: 'lobster';
-color: green;
-background-image: url('../Images/Montreux.jpg');
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: center;
-width: 400px;
-height: 500px;
+  
+  font-family: 'lobster';
+  color: green;
+  
+  background-image: url('../Images/Montreux.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+  width: 400px;
+  height: 500px;
 }
+
 .zurich {
   font-family: 'lobster';
   color: green;
@@ -54,30 +68,26 @@ height: 500px;
   width: 400px;
   height: 500px;
 }
+
 .bern {
-    font-family: 'lobster';
-    color: green;
-    background-image: url('../Images/Bern.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    width: 400px;
-    height: 500px;
-    }
+  font-family: 'lobster';
+  color: green;
+  background-image: url('../Images/Bern.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 400px;
+  height: 500px;
+}
 
 a {
   text-decoration: none;
   color: green;
 }
+
 p {
   font-family: 'lobster';
   color: lightcoral;
-}
-.foot-down{
-  font-family: 'lobster', 'sans-serif';
-  font-size: 1em;
-  color: grey;
-  text-align: right;
 }
 
 .second-div{
@@ -118,6 +128,7 @@ p {
   width: 405px;
   height: 500px;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -131,9 +142,18 @@ p {
   font-weight: 540;
   text-align: center;
   font-family: 'losbter';
-  font-size: 2.05em;
+  font-size: 1.85em;
   background-color: transparent;
   border: 1.5px solid green;
   border-radius: 10px;
   min-width: 50%; 
 }
+
+
+.foot-down{
+  font-family: 'lobster', 'sans-serif';
+  font-size: 1em;
+  color: black;
+  text-align: right;
+}
+
