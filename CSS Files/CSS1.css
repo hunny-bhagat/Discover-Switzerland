@@ -1,0 +1,50 @@
+html {
+  font-family: 'Lobster';
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.06em;
+}
+
+Body {
+  background-image: url(/Discover-Switzerland/Images/background-new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: antiquewhite;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: lightcyan;
+  cursor: pointer;
+}
+
+
+a:hover {
+  color: goldenrod;
+}
+
+.my-h1 {
+  text-align: center;
+}
+
+
+.footer {
+text-align: center;
+font-style: italic bold;
+font-size: 1.4em;
+color: gainsboro;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+.diva {
+  background-color: coral;
+  width: 40%;
+  height: 45%;
+}
+.diva {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 45%;
+}

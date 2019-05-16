@@ -1,0 +1,10 @@
+html{
+  background-image: url(/Discover-Switzerland/Images/Swiss\ F&M.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
+}
+body {
+  font-family: 'Lobster';
+  color: lightgoldenrodyellow;
+}
